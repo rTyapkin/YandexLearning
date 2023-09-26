@@ -1,0 +1,10 @@
+// Основная палитра системы
+@import "modules/palette";
+
+// Основные тексты
+@import "modules/typography";
+
+:root {
+  @include palette;
+  @include typography;
+}

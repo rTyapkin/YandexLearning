@@ -1,0 +1,32 @@
+// Импорт переменных
+@import "vars";
+
+// Импорт сброса стилей
+@import "modules/reset";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--mainBlackBackground);
+}
+
+body {
+  padding: 0 171px;
+}
+
+.accent {
+  color: var(--mainPurpul);
+}
+
+.text-accent {
+  font-weight: bold;
+  color: var(--mainPurpul);
+}
+
+@media all and (max-width: 500px) {
+  body {
+    padding: 0 12px;
+  }
+}
